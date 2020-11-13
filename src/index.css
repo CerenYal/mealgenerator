@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  /* background-image: url(https://cdn.pixabay.com/photo/2020/03/25/21/05/pizza-4968645_960_720.jpg); */
+  /* background-color: rgb(198, 206, 193); */
+  background-image: linear-gradient(#ffee82, #fef4e8);
+  background-repeat : no-repeat;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+flex-direction: column;
+align-items: center; 
+min-height: 100vh;
+justify-content: space-around;
+padding-bottom: 500px;
+}
+
+.box1{
+  align-items: center; 
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.button{
+  border-radius: 50%;
+  background: black;
+  text-align: center;
+  font-size: 24px;
+  color: #fef4e8;
+  font-family:monospace;
+  /* text-decoration-style: ; */
+  width: 160px;
+  height: 100px;
+  margin-bottom: 60px;
+}
+
+.button2{
+border-radius: 50%;
+  background: black;
+  text-align: center;
+  color: white;
+  font-family:monospace;
+  width: 50px;
+  height: 50px;
+}
+
+.image{
+  border-radius: 20%;
+  border: 1px solid black;
+  width: 440px;
+  height: 400px;
+  padding: 0px;
+  margin-top: 8px;
+}
+
+.head1{
+  color: #494949;
+  font-weight:bold;
+  font-family:monospace;
+  font-size: 200%;
+  padding-bottom: 5px;
+}
+
+.header{
+  color: #494949;
+  background-color: #ffee82;
+  border-radius: 10%;
+  border: 1.5px solid black;
+  font-weight:bold;
+  font-family:monospace;
+  font-size: 350%;
+  margin-bottom: 90px;
+  /* opacity: 66%; */
+}
+
+.content{
+  align-items: center; 
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: monospace;
+}
